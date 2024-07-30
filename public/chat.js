@@ -10,6 +10,8 @@ button.addEventListener("click", () => {
     })
 })
 
+
+
 socket.on("chat", (data) => {
     state.innerHTML +=`<h4>${data.mesaj}</h4>`
 })
